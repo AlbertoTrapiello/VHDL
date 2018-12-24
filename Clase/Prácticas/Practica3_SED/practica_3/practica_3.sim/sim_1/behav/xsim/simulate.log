@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: Éxito. Simulación finalizada.
+Time: 0 ps  Iteration: 0  Process: /state_machine_tb/line__80  File: D:/Universidad/Cuarto/SED/Practica3_SED/practica_3/practica_3.srcs/sim_1/new/state_machine_tb.vhd
+$finish called at time : 0 fs : File "D:/Universidad/Cuarto/SED/Practica3_SED/practica_3/practica_3.srcs/sim_1/new/state_machine_tb.vhd" Line 82

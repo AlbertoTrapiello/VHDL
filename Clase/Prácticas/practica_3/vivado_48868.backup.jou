@@ -1,0 +1,246 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 19 11:43:45 2018
+# Process ID: 48868
+# Current directory: D:/Universidad/Cuarto/SED/practica_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent82304 D:\Universidad\Cuarto\SED\practica_3\practica_3.xpr
+# Log file: D:/Universidad/Cuarto/SED/practica_3/vivado.log
+# Journal file: D:/Universidad/Cuarto/SED/practica_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Universidad/Cuarto/SED/practica_3/practica_3.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+startgroup
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [get_designs impl_1]
+set_property BITSTREAM.CONFIG.CONFIGRATE 33 [get_designs impl_1]
+set_property config_mode SPIx4 [current_design]
+endgroup
+set_property target_constrs_file D:/Universidad/Cuarto/SED/practica_3/Nexys4DDR_Master.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation
+source state_machine_tb.tcl
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 47
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 47
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 47
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 58
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 47
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 47
+step
+step
+step
+step
+step
+step
+step
+step
+step
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 47
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 58
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 58
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 58
+run all
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 47
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 67
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 58
+relaunch_sim
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 51
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 71
+step
+step
+step
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 77
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 77
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 74
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 75
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 75
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 75
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 77
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 70
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 68
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 61
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 60
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 59
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 48
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 49
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 49
+add_bp {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} 49
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 59
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 58
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 60
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 61
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 67
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 68
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 70
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 71
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 74
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 75
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_3/practica_3.srcs/sources_1/new/state_machine.vhd} -line 77
+remove_bps -all
+relaunch_sim
+run all
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Universidad/Cuarto/SED/practica_3/practica_3.runs/impl_1/parity_machine.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Universidad/Cuarto/SED/practica_3/practica_3.runs/impl_1/parity_machine.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+close_sim
+launch_simulation
+source state_machine_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Universidad/Cuarto/SED/practica_3/practica_3.runs/impl_1/parity_machine.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+relaunch_sim
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_sim

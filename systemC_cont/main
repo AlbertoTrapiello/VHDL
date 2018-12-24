@@ -1,0 +1,26 @@
+#include <systemc.h>
+
+SC_MODULE(cntr)
+{
+	sc_in<sc_logic>	reset, clk, load, up_n;
+	sc_in<sc_bv<4> > din;
+	sc_out<sc_bv<4> > q;
+	
+	void p1()
+	{
+		if (reset.read() == SC_LOGIC_1)
+			q.write(0);
+		else if (clk.posedge())
+			if(load.read() == SC_LOGIC_1)
+				q.write(din.read());
+			else if (up_read() == SC_LOGIC_0)
+				q.write(q.read().to_uint() + 1);	
+			else		
+				q.write(q.read().to_uint() + 1);
+	}
+	SC_CTOR(sntr)
+	{
+		SC_METHOD(p1);
+			sensitive(reset, clk);
+	}
+}

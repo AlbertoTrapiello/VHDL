@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Examen_15-16.srcs/sources_1/new/Ejerc4.vhd" \
+"../../../../Examen_15-16.srcs/sources_1/new/TB.vhd" \
+
+# Do not sort compile order
+nosort

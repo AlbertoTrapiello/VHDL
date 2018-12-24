@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 16 10:30:37 2018
+# Process ID: 86524
+# Current directory: D:/Universidad/Cuarto/SED/Practica_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent80632 D:\Universidad\Cuarto\SED\Practica_2\practica_2.xpr
+# Log file: D:/Universidad/Cuarto/SED/Practica_2/vivado.log
+# Journal file: D:/Universidad/Cuarto/SED/Practica_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Universidad/Cuarto/SED/Practica_2/practica_2.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/Universidad/Cuarto/SED/practica_2_diana/debouncer.vhd D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd D:/Universidad/Cuarto/SED/practica_2_diana/top2.vhd D:/Universidad/Cuarto/SED/practica_2_diana/sincronizador.vhd D:/Universidad/Cuarto/SED/practica_2_diana/decodificador_tb.vhd D:/Universidad/Cuarto/SED/practica_2_diana/sincro.vhd}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Universidad/Cuarto/SED/practica_2_diana/debouncer.vhd] -no_script -reset -force -quiet
+remove_files  D:/Universidad/Cuarto/SED/practica_2_diana/debouncer.vhd
+add_files -norecurse {{D:/Universidad/Cuarto/SED/P1 y P2/Practica2/Practica2.srcs/sources_1/new/demo.vhd} D:/Universidad/Cuarto/SED/Practica_2_contador/practica_2_contador/practica_2_contador.srcs/sources_1/new/debouncer.vhd}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sim_1/new/decoder_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sim_1/new/decoder_tb.vhd
+export_ip_user_files -of_objects  [get_files D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sources_1/new/Decodificador.vhd] -no_script -reset -force -quiet
+remove_files  D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sources_1/new/Decodificador.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decoder_tb [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source top.tcl
+run all
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source top.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decoder_tb [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source top.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close [ open D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sources_1/new/top_2_tb.vhd w ]
+add_files D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sources_1/new/top_2_tb.vhd
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source top.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_2_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+add_bp {D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sources_1/new/top_2_tb.vhd} 52
+remove_bps -file {D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sources_1/new/top_2_tb.vhd} -line 52
+close_sim
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+current_sim simulation_4
+close_sim
+close_sim
+launch_simulation
+source top_2_tb.tcl
+close_sim
+launch_simulation
+source top_2_tb.tcl
+add_bp {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} 17
+close_sim
+launch_simulation
+source top_2_tb.tcl
+add_bp {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} 18
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} -line 18
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} -line 17
+add_bp {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} 17
+run all
+run all
+run 10 us
+run 10 us
+run all
+relaunch_sim
+remove_bps -file {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} -line 17
+add_bp {D:/Universidad/Cuarto/SED/practica_2_diana/contador.vhd} 20
+relaunch_sim
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+close_sim

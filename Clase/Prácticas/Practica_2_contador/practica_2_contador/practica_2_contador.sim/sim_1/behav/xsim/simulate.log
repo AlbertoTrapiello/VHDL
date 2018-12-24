@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: Simulacion finalizada. Test superado.
+Time: 320 ns  Iteration: 0  Process: /decoder_tb/tb  File: D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sim_1/new/decoder_tb.vhd
+$finish called at time : 320 ns : File "D:/Universidad/Cuarto/SED/Practica_2/practica_2.srcs/sim_1/new/decoder_tb.vhd" Line 63

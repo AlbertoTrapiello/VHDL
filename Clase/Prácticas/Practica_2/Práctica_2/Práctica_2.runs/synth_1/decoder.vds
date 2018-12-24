@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Oct 29 12:20:42 2018
+# Process ID: 123624
+# Current directory: D:/Universidad/Cuarto/SED/Practica_2/Práctica_2/Práctica_2.runs/synth_1
+# Command line: vivado.exe -log decoder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder.tcl
+# Log file: D:/Universidad/Cuarto/SED/Practica_2/Práctica_2/Práctica_2.runs/synth_1/decoder.vds
+# Journal file: D:/Universidad/Cuarto/SED/Practica_2/Práctica_2/Práctica_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source decoder.tcl -notrace
+Command: synth_design -top decoder -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 124384 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 371.984 ; gain = 98.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'decoder' [D:/Universidad/Cuarto/SED/Practica_2/Práctica_2/Práctica_2.srcs/sources_1/new/P_2.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'decoder' (1#1) [D:/Universidad/Cuarto/SED/Practica_2/Práctica_2/Práctica_2.srcs/sources_1/new/P_2.vhd:11]

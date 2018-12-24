@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 5008db35e631439081859861ca09d21a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot state_machine_tb_behav xil_defaultlib.state_machine_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+ERROR: [XSIM 43-3249] File C:/Users/Fran/Desktop/practica_3 con divisor de frecuencia/practica_3.srcs/sim_1/new/state_machine_tb.vhd, line 51. Unresolved signal "clk_in" is multiply driven.

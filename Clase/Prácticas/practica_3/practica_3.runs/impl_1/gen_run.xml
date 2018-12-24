@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1542630734">
+  <File Type="BITSTR-BMM" Name="parity_machine_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="parity_machine_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="parity_machine_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="parity_machine_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="parity_machine.tcl"/>
+  <File Type="OPT-TIMING" Name="parity_machine_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="parity_machine_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="parity_machine_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="parity_machine_reports.tcl"/>
+  <File Type="OPT-DRC" Name="parity_machine_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="parity_machine.hwdef"/>
+  <File Type="PWROPT-DCP" Name="parity_machine_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="parity_machine_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="parity_machine_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="parity_machine_placed.dcp"/>
+  <File Type="PLACE-IO" Name="parity_machine_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="parity_machine_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="parity_machine_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="parity_machine_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="parity_machine_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="parity_machine_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="parity_machine_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="parity_machine.bgn"/>
+  <File Type="PLACE-TIMING" Name="parity_machine_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="parity_machine_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="parity_machine.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="parity_machine_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="parity_machine_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="parity_machine_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="parity_machine.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="parity_machine_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="parity_machine_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="parity_machine_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="parity_machine_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="parity_machine_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="parity_machine_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="parity_machine.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="parity_machine_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="parity_machine.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="parity_machine_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="parity_machine_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="parity_machine.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="parity_machine_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="parity_machine_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="parity_machine_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="parity_machine_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="parity_machine_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="parity_machine_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="parity_machine_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="parity_machine_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="parity_machine_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="parity_machine_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="parity_machine_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="parity_machine_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="parity_machine_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="parity_machine_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="parity_machine_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="parity_machine_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="parity_machine_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="parity_machine_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="parity_machine_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="parity_machine.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="parity_machine_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="parity_machine.rbt"/>
+  <File Type="BITSTR-NKY" Name="parity_machine.nky"/>
+  <File Type="BG-DRC" Name="parity_machine.drc"/>
+  <File Type="RDI-RDI" Name="parity_machine.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/state_machine.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="parity_machine"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/Nexys4DDR_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

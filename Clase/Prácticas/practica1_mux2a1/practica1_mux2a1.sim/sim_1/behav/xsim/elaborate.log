@@ -1,0 +1,10 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1aa062bfae964b42b70f40b17a657cb9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mux_tb_behav xil_defaultlib.mux_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-619] entity port x does not match with type std_logic of component port [D:/Universidad/Cuarto/SED/practica1_mux2a1/practica1_mux2a1.srcs/sim_1/new/mux_tb.vhd:44]
+ERROR: [VRFC 10-664] expression has 9 elements ; expected 3 [D:/Universidad/Cuarto/SED/practica1_mux2a1/practica1_mux2a1.srcs/sim_1/new/mux_tb.vhd:44]
+ERROR: [VRFC 10-619] entity port m does not match with type std_logic of component port [D:/Universidad/Cuarto/SED/practica1_mux2a1/practica1_mux2a1.srcs/sim_1/new/mux_tb.vhd:45]
+ERROR: [VRFC 10-664] expression has 9 elements ; expected 3 [D:/Universidad/Cuarto/SED/practica1_mux2a1/practica1_mux2a1.srcs/sim_1/new/mux_tb.vhd:45]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mux_tb in library work failed.

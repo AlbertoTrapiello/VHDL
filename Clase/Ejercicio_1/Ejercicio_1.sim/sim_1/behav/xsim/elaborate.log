@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40bde61950f3434ca29b160745df209b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ejercicio_2_test_bench_behav xil_defaultlib.Ejercicio_2_test_bench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+ERROR: [XSIM 43-3211] "D:/Universidad/Cuarto/SED/Ejercicio_1/Ejercicio_1.srcs/sources_1/new/Ejercicio_2.vhd" Line 48. Waveform unaffected is not supported.

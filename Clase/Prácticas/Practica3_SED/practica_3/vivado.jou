@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Dec  2 17:55:22 2018
+# Process ID: 320780
+# Current directory: D:/Universidad/Cuarto/SED/Practica3_SED/practica_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent165096 D:\Universidad\Cuarto\SED\Practica3_SED\practica_3\practica_3.xpr
+# Log file: D:/Universidad/Cuarto/SED/Practica3_SED/practica_3/vivado.log
+# Journal file: D:/Universidad/Cuarto/SED/Practica3_SED/practica_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Universidad/Cuarto/SED/Practica3_SED/practica_3/practica_3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Universidad/Cuarto/SED/Practica3_SED/practica_3/state_machine_tb_behav.wcfg
+source state_machine_tb.tcl
+close_sim
+launch_simulation
+open_wave_config D:/Universidad/Cuarto/SED/Practica3_SED/practica_3/state_machine_tb_behav.wcfg
+source state_machine_tb.tcl
+close_sim
