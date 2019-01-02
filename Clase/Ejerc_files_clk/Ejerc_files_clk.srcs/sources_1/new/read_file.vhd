@@ -52,8 +52,8 @@ PROCESS
         WAIT FOR 50 ns;
             clk <= '1';
         IF NOT ENDFILE(f) THEN
-            READLINE(l);
-            READ(l,str1);
+            READLINE(f, l);--lee una línea del txt y la guarda en l
+            READ(l,str1);--vas pasando de l a las variables
             READ(l,t);
             READ(l,str2);
             --Para gestión de errores de lectura

@@ -21,7 +21,8 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use std.textio.all;
+use std.textio.all;--inclye la librería para poder manejar fichero
+
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -31,11 +32,11 @@ use std.textio.all;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity write_to_file is
+entity write_to_file is --entidad encargada de escribir en el fichero
 --  Port ( );
 end write_to_file;
 
-architecture arch1 of write_to_file is
+architecture arch1 of write_to_file is 
 CONSTANT period: TIME:= 100 ns;
 SIGNAL clk: BIT:='0';
 FILE f: TEXT OPEN WRITE_MODE IS "name.txt";
@@ -50,8 +51,8 @@ PROCESS
         WAIT FOR period/2;
             clk <= '1';
         t:= period/2 + i*period;
-        WRITE(l,str1); WRITE(l,t); WRITE(l,str2); WRITE(l,i);
-        WRITELINE(f,l);
+        WRITE(l,str1); WRITE(l,t); WRITE(l,str2); WRITE(l,i);--vas escribiendo en líneas 
+        WRITELINE(f,l);--finalmente escribes esa línea en el txt
         WAIT FOR period/2;
             clk <= '0';     
 END PROCESS;
