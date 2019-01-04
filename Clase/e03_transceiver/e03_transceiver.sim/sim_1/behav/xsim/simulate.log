@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: [PASSED]: Simulation finished.
+Time: 40 ns  Iteration: 0  Process: /e03_transceiver_tb/stim_proc  File: D:/Universidad/Cuarto/SED/VHDL/Clase/e03_transceiver/e03_transceiver.srcs/sources_1/new/e03_transceiver_tb.vhd
+$finish called at time : 40 ns : File "D:/Universidad/Cuarto/SED/VHDL/Clase/e03_transceiver/e03_transceiver.srcs/sources_1/new/e03_transceiver_tb.vhd" Line 97

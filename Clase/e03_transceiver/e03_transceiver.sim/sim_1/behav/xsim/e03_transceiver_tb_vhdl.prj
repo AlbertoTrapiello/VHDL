@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../e03_transceiver.srcs/sources_1/new/e03_transceiver.vhd" \
+"../../../../e03_transceiver.srcs/sources_1/new/e03_transceiver_tb.vhd" \
+
+# Do not sort compile order
+nosort

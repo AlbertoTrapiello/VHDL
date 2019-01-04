@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1412394249055396282  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 42415e018fac40d39743a686eb175f71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot e03_transceiver_tb_behav xil_defaultlib.e03_transceiver_tb" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/e03_transceiver_tb_behav/xsimk.exe\"   \"xsim.dir/e03_transceiver_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/e03_transceiver_tb_behav/obj/xsim_1.win64.obj\" \"D:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
