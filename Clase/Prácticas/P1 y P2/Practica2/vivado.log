@@ -2,23 +2,23 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Nov 15 16:54:45 2018
-# Process ID: 81676
-# Current directory: D:/Universidad/Cuarto/SED/P1 y P2/Practica2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent81512 D:\Universidad\Cuarto\SED\P1 y P2\Practica2\Practica2.xpr
-# Log file: D:/Universidad/Cuarto/SED/P1 y P2/Practica2/vivado.log
-# Journal file: D:/Universidad/Cuarto/SED/P1 y P2/Practica2\vivado.jou
+# Start of session at: Fri Jan 11 13:56:06 2019
+# Process ID: 138344
+# Current directory: D:/Universidad/Cuarto/SED/VHDL/Clase/Prácticas/P1 y P2/Practica2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent131728 D:\Universidad\Cuarto\SED\VHDL\Clase\Prácticas\P1 y P2\Practica2\Practica2.xpr
+# Log file: D:/Universidad/Cuarto/SED/VHDL/Clase/Prácticas/P1 y P2/Practica2/vivado.log
+# Journal file: D:/Universidad/Cuarto/SED/VHDL/Clase/Prácticas/P1 y P2/Practica2\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {D:/Universidad/Cuarto/SED/P1 y P2/Practica2/Practica2.xpr}
+open_project {D:/Universidad/Cuarto/SED/VHDL/Clase/Prácticas/P1 y P2/Practica2/Practica2.xpr}
 INFO: [Project 1-313] Project file moved from 'C:/Users/34619/Practica2' since last save.
-CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Universidad/Cuarto/SED/P1 y P2/Downloads/Nexys-4-DDR-Master.xdc', nor could it be found using path 'C:/Users/34619/Downloads/Nexys-4-DDR-Master.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Universidad/Cuarto/SED/VHDL/Clase/Prácticas/P1 y P2/Downloads/Nexys-4-DDR-Master.xdc', nor could it be found using path 'C:/Users/34619/Downloads/Nexys-4-DDR-Master.xdc'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 899.965 ; gain = 171.211
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 896.266 ; gain = 157.273
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Nov 15 16:55:13 2018...
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 11 13:56:37 2019...
